@@ -27,25 +27,19 @@ li {
 }
 
 
-
 #spongebob {
-
   height: 150px;
-  position: relative; /* or absolute */ 
-  top: 20px; /* Adjust the value as needed */ 
+  position: absolute; /* Change to absolute for better control */
+  top: 90px; 
   left: 500px;
-  
 }
 
 #doodlebob {
-
   height: 150px;
-  position: relative; /* or absolute */ 
-  top: 20px; /* Adjust the value as needed */ 
-  left: -100px;
-  
+  position: absolute; /* Change to absolute for better control */
+  top: 90px; 
+  left: 200px; /* Adjusted value to place Doodlebob correctly */
 }
-
 
 .seeMe {
   /* border-style: dashed; 
@@ -57,3 +51,7 @@ li {
 /* use # to prefix css selector for dom/html element id attribute */
 /* #songList {
   background-color: #CE93D8;} */
+img {
+    display: block; /* Prevents spacing issues */
+    background: transparent; /* Ensures background is transparent */
+}
